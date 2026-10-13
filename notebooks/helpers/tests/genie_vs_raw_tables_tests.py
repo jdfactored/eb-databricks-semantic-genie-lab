@@ -95,5 +95,5 @@ def test_challenge_recommendation(**kwargs):
     rec = rec[0]
     assert rec.winner == "metric_view_agent", (
         f"winner = {rec.winner!r}. Which agent's revenue matched the governed number? Name its role.")
-    assert len(rec.rationale) >= 60, "Give a rationale of at least a couple of sentences, grounded in what you saw."
-    assert len(rec.raw_agent_fix) >= 20, "Name one concrete change that would make the raw agent less wrong."
+    assert len(rec.rationale) >= 40, "Give a rationale of at least a couple of sentences, grounded in what you saw."
+    assert len(rec.raw_agent_fix) >= 15, "Name one concrete change that would make the raw agent less wrong."

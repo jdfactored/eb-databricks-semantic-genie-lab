@@ -2,8 +2,15 @@
 # Semantic Layer & Genie on Databricks Lab
 
 **Tools**: Databricks, Unity Catalog metric views, Genie Agents, Genie Ontology, Genie One, Databricks SDK
+<br>
+**Topics**: Semantic layer, Genie agents, Genie one, Genie Ontology
+<br>
+**Course ID**: `course-v1:Factored+DE015+2026T1`
+<br>
 **Time**: 45–60 minutes of hands-on work
+<br>
 **Compute**: Serverless for the notebooks, plus a pro or serverless SQL warehouse for Genie
+<br>
 **Prerequisite**: working SQL and basic PySpark. No Genie experience needed.
 
 ---
